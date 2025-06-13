@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Трио Мебель</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Шрифт -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="promo2_2">
+        <div class="container2_2">     
+            <div class="logo">
+                <a href="index.html"> 
+                    <img src="Logo.png" alt="logo" class="logo_img">
+                </a>
+            </div>
+            <nav>
+                <ul class="spisok"> <!-- Список ссылок с классами для стилизации -->
+                    <li class="bebe1"><a href="kitchen.html">Кухни</a></li>
+                    <li class="bebe2"><a href="vibor.html">Мебель</a></li>
+                    <li class="bebe3"><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- contacts section start -->
+<section class="contacts">
+    <h2 class="heading"><span>Cвязаться с нами</span></h2>
+    <div class="row">
+        <div class="img">
+            <img src="man.png">
+        </div>
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+             <input type="hidden" name="access_key" value="5d44bc43-982d-4b7d-affc-467fcf3d52d6">
+
+            <span>Ваше Имя</span>
+            <input type="text" name="name" id="" class="box" required placeholder="Введите ваше имя.." autocomplete="off">
+
+            <span>Ваш email</span>
+            <input type="email" name="email" id="" class="box" required placeholder="Введите ваш email.." autocomplete="off">
+
+            <span>Ваш номер телефона</span>
+            <input type="tel" name="номер телефона" id="" class="box" required placeholder="Введите ваш номер телефона.." autocomplete="off">
+
+            <span>Выберите мебель</span>
+            <select name="мебель" id="" class="box">
+                <option value="" disabled selected>Выберите мебель..</option>
+                <option value="Кухня" >Кухня</option>
+                <option value="Комод">Комод</option>
+                <option value="Шкаф">Шкаф</option>
+                <option value="Мебельная стенка">Мебельная стенка</option>
+            </select>
+            <input type="submit" value="Отправить данные" class="btn" name="send">
+        </form>
+    </div>
+</section>
+    <!-- contacts section end -->
+
+    <!-- Футер -->
+    <footer class="footer">
+    <div class="container4">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4 class="footer-title">Мы в соцсетях</h4>
+                <div class="social-links">
+                    <a href="#"><img src="Viber.png" alt="Viber"></a>
+                    <a href="https://t.me/@id6185217972"><img src="Telegram.png" alt="Telegram"></a>
+                    <a href="#"><img src="WhatsApp.png" alt="WhatsApp"></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-title">Связаться с нами</h4>
+                <p>+7 (920) 649-29-92</p>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-title">Режим работы</h4>
+                <p>Пн-Пт: 9:00 – 18:00</p>
+                <p>Сб: 10:00 – 16:00</p>
+                <p>Вс: выходной</p>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-title">Адрес</h4>
+                <p>ул. Сутырина, дом 11,</p>
+                <p>г. Кострома Россия</p>
+                <a href="Pol_Kof.html" class="policy-link">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
